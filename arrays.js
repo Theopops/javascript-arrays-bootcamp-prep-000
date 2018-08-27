@@ -11,7 +11,7 @@ function addElementToEndOfArray(chocolateBars, marsBar) {
   return [...chocolateBars, marsBar] 
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, marsBar) {
-    chocolateBars.unshift(marsBar);
+    chocolateBars.push(marsBar);
   return chocolateBars;
 }
 function accessElementInArray(chocolateBars, index) {
