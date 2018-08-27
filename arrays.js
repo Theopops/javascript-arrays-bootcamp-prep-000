@@ -18,10 +18,8 @@ function accessElementInArray(chocolateBars, index) {
   return chocolateBars[index]
 }
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-  return chocolateBars.shift()
-}
-function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-  return chocolateBars.slice(1)
+  chocolateBars.shift();
+  return chocolateBars;
 }
 function removeElementFromBeginningOfArray(chocolateBars) {
   return chocolateBars.slice(-1)
